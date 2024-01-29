@@ -38,7 +38,7 @@ public class App
                         break;  
 
                     case 3:
-                        System.out.println("Kierrosta?");
+                        System.out.println("Kuinka monta kierrosta?");
                         int round = Integer.parseInt(sc.nextLine());
                         newZoo.runAnimal(round);
                         break;
